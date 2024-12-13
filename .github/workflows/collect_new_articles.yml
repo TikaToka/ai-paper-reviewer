@@ -30,7 +30,7 @@ jobs:
         with:
           repository: 'TikaToka/paper-reviewer-multi' # Replace with the actual owner and name of repository B
           token: ${{ secrets.GH_TOKEN }} # Create a PAT with read access to repository B and store it as a secret in repository A
-          path: 'ai-paper-reviewer'
+          path: 'paper-reviewer-multi'
 
       - uses: actions/setup-python@v5
         with:
@@ -45,7 +45,7 @@ jobs:
       - name: Setup dependencies and run the script
         run: |
           cur_date=$(date '+%Y-%m-%d')
-          cd paper-reviewer
+          cd paper-reviewer-multi
           
           pip install -r requirements.txt
           sudo apt install poppler-utils
