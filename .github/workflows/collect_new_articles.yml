@@ -82,7 +82,7 @@ jobs:
           
       - name: Move Articles to Repository A
         run: |
-          mv paper-reviewer/articles/* ./content/paper-reviews/ 
+          mv paper-reviewer-multi/articles/* ./content/paper-reviews/ 
           rm -rf paper-reviewer
           rm gha-creds*.json
 
