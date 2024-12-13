@@ -59,15 +59,15 @@ jobs:
 
           # export GCP_API_KEY=$(gcloud auth print-access-token)
           # GCP_API_KEY=${{ steps.auth.outputs.access_token }} \  
-          
-          GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }} \
+
           # UPSTAGE_API_KEY=${{ secrets.UPSTAGE_API_KEY }} \
+          GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }} \
           ./collect-hf-linux.sh \
             $cur_date \
             $cur_date \
             8 \
             ../content/paper-reviews \
-            ko-KR
+            'ko-KR'
 
           echo "running convert-hf-linux.sh script....."
 
