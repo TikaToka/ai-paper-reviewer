@@ -67,7 +67,7 @@ jobs:
             $cur_date \
             8 \
             ../content/paper-reviews \
-            'ko-KR'
+            ko-KR
 
           echo "running convert-hf-linux.sh script....."
 
