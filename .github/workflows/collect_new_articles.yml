@@ -28,9 +28,9 @@ jobs:
       - name: Checkout Repository B
         uses: actions/checkout@v3
         with:
-          repository: 'deep-diver/paper-reviewer' # Replace with the actual owner and name of repository B
+          repository: 'TikaToka/paper-reviewer-multi' # Replace with the actual owner and name of repository B
           token: ${{ secrets.GH_TOKEN }} # Create a PAT with read access to repository B and store it as a secret in repository A
-          path: 'paper-reviewer'
+          path: 'paper-reviewer-multi'
 
       - uses: actions/setup-python@v5
         with:
@@ -66,7 +66,8 @@ jobs:
             $cur_date \
             $cur_date \
             8 \
-            ../content/paper-reviews
+            ../content/paper-reviews \
+            ko-KR
 
           echo "running convert-hf-linux.sh script....."
 
@@ -87,8 +88,8 @@ jobs:
 
       - name: Commit and Push Changes
         run: |
-          git config user.name 'Chansung'
-          git config user.email 'deep.diver.csp@gmail.com'
+          git config user.name 'TikaToka'
+          git config user.email 'tikatoka@snu.ac.kr'
           git add .
           git commit -m "Automated update of static pages"
           git push
