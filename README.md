@@ -2,7 +2,11 @@ This repository is forked version of [this repository](https://github.com/deep-d
 
 <img width="728" alt="image" src="https://github.com/user-attachments/assets/453766e7-dedc-4f40-9af6-979fefe57ed4" />
 
-This repo supports multilingual Review. please change [HERE](https://github.com/TikaToka/ai-paper-reviewer/blob/31f34a42251abb080997da78c0112c274c188955/.github/workflows/collect_new_articles.yml#L70) with locales.
+This fork's has two purpose
+1. Multilingual Support
+2. Keyword based Curation
+
+
 
 Pipeline can be found [HERE](https://github.com/TikaToka/paper-reviewer-multi)
 
@@ -11,7 +15,9 @@ Pipeline can be found [HERE](https://github.com/TikaToka/paper-reviewer-multi)
 2. R2 Storage
 3. Upstage API
 
-However, you can always use it by removing commented lines [HERE](https://github.com/TikaToka/ai-paper-reviewer/blob/31f34a42251abb080997da78c0112c274c188955/.github/workflows/collect_new_articles.yml)
+## Setting
+Please change [HERE](https://github.com/TikaToka/ai-paper-reviewer/blob/31f34a42251abb080997da78c0112c274c188955/.github/workflows/collect_new_articles.yml#L70) with your desired locale, e.g. en-US
+Also, to re-use omitted features, you can always use it by reverting commented lines [HERE](https://github.com/TikaToka/ai-paper-reviewer/blob/31f34a42251abb080997da78c0112c274c188955/.github/workflows/collect_new_articles.yml)
 
 # AI Paper Reviewer
 
