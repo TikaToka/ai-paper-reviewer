@@ -4,7 +4,7 @@ This repository is forked version of [this repository](https://github.com/deep-d
 
 This fork's has two purpose
 1. Multilingual Support
-2. Keyword based Curation
+2. Keyword based Curation (W.I.P)
 
 
 
