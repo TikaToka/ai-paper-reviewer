@@ -89,7 +89,7 @@ jobs:
         run: |
           mv paper-reviewer-multi/articles/* ./content/paper-reviews/ 
           rm -rf paper-reviewer
-          rm gha-creds*.json
+          rm -f gha-creds*.json
 
       - name: Commit and Push Changes
         run: |
