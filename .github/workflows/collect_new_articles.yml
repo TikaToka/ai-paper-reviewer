@@ -48,7 +48,8 @@ jobs:
 
       - name: Setup dependencies and run the script
         run: |
-          cur_date=$(date '+%Y-%m-%d')
+          cur_date=$(date -d "yesterday" '+%Y-%m-%d')
+          echo "Yesterday's date: $cur_date"
           cd paper-reviewer-multi
           
           pip install -r requirements.txt
