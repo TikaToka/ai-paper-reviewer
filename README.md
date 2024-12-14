@@ -2,11 +2,9 @@ This repository is forked version of [this repository](https://github.com/deep-d
 
 <img width="728" alt="image" src="https://github.com/user-attachments/assets/453766e7-dedc-4f40-9af6-979fefe57ed4" />
 
-This fork's has two purpose
+This fork has two purpose:
 1. Multilingual Support
 2. Keyword based Curation (W.I.P)
-
-
 
 Pipeline can be found [HERE](https://github.com/TikaToka/paper-reviewer-multi)
 
