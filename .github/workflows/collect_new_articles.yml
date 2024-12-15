@@ -1,9 +1,5 @@
 name: collect new articles
 
-env:
-  ACTIONS_STEP_DEBUG: true
-  ACTIONS_RUNNER_DEBUG: true
-
 on: 
   schedule:
     - cron: "0 */12 * * *"
