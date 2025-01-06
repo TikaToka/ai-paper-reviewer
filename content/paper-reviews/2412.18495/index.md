@@ -1,5 +1,5 @@
 ---
-title: "How "Real" is Your Real-Time Simultaneous Speech-to-Text Translation System?"
+title: "How \"Real\" is Your Real-Time Simultaneous Speech-to-Text Translation System?"
 summary: "실시간 동시 통역 시스템의 현실적인 한계를 규명하고, 표준화된 용어와 체계를 제시하여 연구 발전을 촉진하는 논문."
 categories: ["AI Generated", "🤗 Daily Papers"]
 tags: ["Natural Language Processing", "Machine Translation", "🏢 Fondazione Bruno Kessler",]
