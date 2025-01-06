@@ -15,6 +15,7 @@ Pipeline can be found [HERE](https://github.com/TikaToka/paper-reviewer-multi)
 
 ## Setting
 Please change [HERE](https://github.com/TikaToka/ai-paper-reviewer/blob/31f34a42251abb080997da78c0112c274c188955/.github/workflows/collect_new_articles.yml#L70) with your desired locale, e.g. en-US
+
 Also, to re-use omitted features, you can always use it by reverting commented lines [HERE](https://github.com/TikaToka/ai-paper-reviewer/blob/31f34a42251abb080997da78c0112c274c188955/.github/workflows/collect_new_articles.yml)
 
 # AI Paper Reviewer
